@@ -1,0 +1,128 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    background-color: black;
+       
+}
+@font-face {
+     font-family: "Minecraft";
+    src: url("./font/Minecraft.ttf") format("woff2");
+}
+  
+    @font-face {   
+    font-family: "VCR_OSD_MONO_1.001";
+    src:url("./font/VCR_OSD_MONO_1.001.ttf") format("woff2");
+}
+
+header {
+    
+    background-color: black;
+ position: fixed;
+    width: 100%;
+    font-family: "Minecraft";
+    border-bottom: 4px solid #844fc6;
+    
+}
+
+
+header nav {
+    text-align: center;
+    word-spacing: 10px; 
+}
+
+#logo{
+    color: pink;
+}
+
+a{
+    text-decoration: none;
+    color: #844fc6;
+}
+
+a:hover {
+-webkit-text-stroke: 1px white;/*met les contours des mots en blanc*/
+}
+
+header img[src="image/logo_pixelfood.jpg"]{
+    width: 200px;
+    height: 200px;
+}
+
+img[src="image/hot dog.jpg"] {
+width: 930px;
+height: 500px;
+object-fit: cover ;
+
+}
+img[src="image/sweetroll.jpg"]{
+    margin-top: 220px;
+    width: 930px;
+    height: 500px;
+object-fit: cover ;
+}
+
+
+
+h1{
+    text-align: center;
+    font-family: "VCR_OSD_MONO_1.001";
+  
+}
+
+.histoire {
+    
+    font-family: "VCR_OSD_MONO_1.001";
+}
+
+.histblanc {
+  -webkit-text-stroke: 1.5px white;   
+}
+.histviolet { 
+    color: #844fc6  ; 
+}
+img[src="image/foodtrucklogo.jpg"]{
+    width: 500px;
+    height: 400px;
+    margin: 0 50px 0 200px;
+    float: left;
+    
+    
+}
+
+img[src="image/ethique.jpg"]{
+    width: 500px;
+    height: 400px;
+    margin: 0 50px 0 200px;
+    
+}
+
+.violet {
+    color:#844fc6;
+}
+.blanc {
+    -webkit-text-stroke: 1.5px white;
+}
+
+
+footer img[src="image/logo_pixelfood.jpg"] {
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    background-color: black;
+
+    
+}
+footer nav{ 
+    color: #844fc6;
+    font-size: 20px;
+    display: inline-block;
+}
+footer a {
+    display:block;
+    
+}
+
+
